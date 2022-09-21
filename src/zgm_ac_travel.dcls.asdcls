@@ -1,0 +1,15 @@
+@EndUserText.label: 'Access Control Travel'
+@MappingRole: true
+define role ZGM_AC_TRAVEL {
+    grant
+        select
+            on
+                ZGM_I_TRAVEL 
+                    where
+//                        CurrencyCode = 'EUR'
+//                        and
+//                        ( TravelStatus ) = aspect pfcg_auth( ZGM_OSTAT , ZGM_OSTAT , ACTVT = '03' )
+//                        OR 
+                        true;
+                        
+}

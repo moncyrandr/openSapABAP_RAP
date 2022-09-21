@@ -1,0 +1,12 @@
+@EndUserText.label: 'Service Definition'
+define service ZGM_SRVD_TRAVEL {
+  expose ZGM_C_TRAVEL as Travel;
+  expose ZGM_C_BOOKING as Booking;
+  expose /DMO/I_Agency as Agency;
+  expose /DMO/I_Flight as Flight;
+  expose /DMO/I_Carrier as Carrier;
+  expose /DMO/I_Connection as Connection;
+  expose /DMO/I_Airport as Airport;
+  expose I_Currency as Currency;
+  expose I_Country as country;
+}
